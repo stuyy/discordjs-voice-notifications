@@ -1,0 +1,20 @@
+{
+  "name": "vc-sub-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node src/bot.js",
+    "dev" : "nodemon src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "sequelize": "^5.21.3",
+    "sqlite3": "^4.1.1"
+  }
+}
